@@ -8,6 +8,12 @@ This repository contains code to integrate:
 
 Please see the file 'docs/Technical description.pdf' for an overview of the solution. 
 
+## O-MI Node configuration
+
+https://github.com/AaltoAsia/O-MI
+
+### Authentication
+
 ## Needed AWS Configurations
 
 TBD: the deployment details to AWS will be described in the following chapters
@@ -24,3 +30,6 @@ TBD: the deployment details to AWS will be described in the following chapters
 
 ### EC2
 
+
+___
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 688203.
