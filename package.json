@@ -1,0 +1,40 @@
+{
+  "name": "parkkihubi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build_phubi_lambdas": "webpack --config phubiPoller/webpack.config.js",
+    "build_pr_lambdas": "webpack --config pr/webpack.config.js",
+    "build_residential_lambdas": "webpack --config residential/webpack.config.js",
+    "build_auth_lambdas": "webpack --config auth/webpack.config.js",
+    "test_lambda_phubiPoller": "docker run --network=localaws --rm -v \"${PWD}/dist/phubiPoller\":/var/task lambci/lambda:nodejs8.10 phubiPoller.handler '{\"key1\": \"event\"}'",
+    "test_lambda_phubiPoller_localstack": "docker run --network=localstack_default --rm -v \"${PWD}/dist/phubiPoller\":/var/task lambci/lambda:nodejs8.10 phubiPoller.handler '{\"key1\": \"event\"}'",
+    "test_lambda_phubiUpdater_localstack": "docker run --network=localstack_default --rm -v \"${PWD}/dist/phubiUpdater\":/var/task lambci/lambda:nodejs8.10 phubiUpdater.handler '{\"key1\": \"event\"}'",
+    "build": "webpack ",
+    "start": "node ./index.js",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "aws-sdk": "^2.356.0",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.3.0",
+    "node-jose": "^1.1.3",
+    "omi-odf": "^0.1.3",
+    "p-limit": "^2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "jasmine": "^3.2.0",
+    "jsonix": "^2.4.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

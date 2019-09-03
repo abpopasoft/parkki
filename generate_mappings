@@ -1,0 +1,1 @@
+java --add-modules java.xml.bind -jar node_modules/jsonix/lib/jsonix-schema-compiler-full.jar  -d mappings -p odf src/schemas/xsd/odf.xsd

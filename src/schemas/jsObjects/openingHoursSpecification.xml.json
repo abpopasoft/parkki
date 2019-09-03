@@ -1,0 +1,117 @@
+{
+  "name": {
+    "namespaceURI": "",
+    "localPart": "Object",
+    "prefix": "",
+    "key": "Object",
+    "string": "Object"
+  },
+  "value": {
+    "TYPE_NAME": "odf.ObjectType",
+    "type": "schema:OpeningHoursSpecification",
+    "otherAttributes": {
+      "type": "schema:OpeningHoursSpecification"
+    },
+    "id": [
+      {
+        "TYPE_NAME": "odf.QlmID",
+        "value": "openingHoursSpecification"
+      }
+    ],
+    "infoItem": [
+      {
+        "TYPE_NAME": "odf.InfoItemType",
+        "nameAttribute": "closes",
+        "otherAttributes": {
+          "name": "closes"
+        },
+        "value": [
+          {
+            "TYPE_NAME": "odf.ValueType",
+            "unixTime": 1540722701,
+            "type": "schema:Time",
+            "dateTime": {
+              "year": 2018,
+              "month": 10,
+              "day": 28,
+              "hour": 12,
+              "minute": 31,
+              "second": 41,
+              "fractionalSecond": 0.972,
+              "timezone": 120,
+              "date": "2018-10-28T10:31:41.972Z"
+            },
+            "otherAttributes": {
+              "unixTime": "1540722701",
+              "type": "schema:Time",
+              "dateTime": "2018-10-28T12:31:41.972+02:00"
+            },
+            "value": "\n            24:00\n        "
+          }
+        ]
+      },
+      {
+        "TYPE_NAME": "odf.InfoItemType",
+        "nameAttribute": "dayOfWeek",
+        "otherAttributes": {
+          "name": "dayOfWeek"
+        },
+        "value": [
+          {
+            "TYPE_NAME": "odf.ValueType",
+            "unixTime": 1540722701,
+            "type": "schema:DayOfWeek",
+            "dateTime": {
+              "year": 2018,
+              "month": 10,
+              "day": 28,
+              "hour": 12,
+              "minute": 31,
+              "second": 41,
+              "fractionalSecond": 0.972,
+              "timezone": 120,
+              "date": "2018-10-28T10:31:41.972Z"
+            },
+            "otherAttributes": {
+              "unixTime": "1540722701",
+              "type": "schema:DayOfWeek",
+              "dateTime": "2018-10-28T12:31:41.972+02:00"
+            },
+            "value": "\n            Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday\n        "
+          }
+        ]
+      },
+      {
+        "TYPE_NAME": "odf.InfoItemType",
+        "nameAttribute": "opens",
+        "otherAttributes": {
+          "name": "opens"
+        },
+        "value": [
+          {
+            "TYPE_NAME": "odf.ValueType",
+            "unixTime": 1540722701,
+            "type": "schema:Time",
+            "dateTime": {
+              "year": 2018,
+              "month": 10,
+              "day": 28,
+              "hour": 12,
+              "minute": 31,
+              "second": 41,
+              "fractionalSecond": 0.972,
+              "timezone": 120,
+              "date": "2018-10-28T10:31:41.972Z"
+            },
+            "otherAttributes": {
+              "unixTime": "1540722701",
+              "type": "schema:Time",
+              "dateTime": "2018-10-28T12:31:41.972+02:00"
+            },
+            "value": "\n            00:00\n        "
+          }
+        ]
+      }
+    ]
+  }
+}

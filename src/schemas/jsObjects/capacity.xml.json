@@ -1,0 +1,120 @@
+{
+  "name": {
+    "namespaceURI": "",
+    "localPart": "Object",
+    "prefix": "",
+    "key": "Object",
+    "string": "Object"
+  },
+  "value": {
+    "TYPE_NAME": "odf.ObjectType",
+    "type": "mv:Capacity",
+    "otherAttributes": {
+      "type": "mv:Capacity"
+    },
+    "id": [
+      {
+        "TYPE_NAME": "odf.QlmID",
+        "value": "CarCapacity"
+      }
+    ],
+    "infoItem": [
+      {
+        "TYPE_NAME": "odf.InfoItemType",
+        "nameAttribute": "maximumValue",
+        "otherAttributes": {
+          "type": "mv:maximumValue",
+          "name": "maximumValue"
+        },
+        "value": [
+          {
+            "TYPE_NAME": "odf.ValueType",
+            "unixTime": 1540722701,
+            "type": "xs:short",
+            "dateTime": {
+              "year": 2018,
+              "month": 10,
+              "day": 28,
+              "hour": 12,
+              "minute": 31,
+              "second": 41,
+              "fractionalSecond": 0.972,
+              "timezone": 120,
+              "date": "2018-10-28T10:31:41.972Z"
+            },
+            "otherAttributes": {
+              "unixTime": "1540722701",
+              "type": "xs:short",
+              "dateTime": "2018-10-28T12:31:41.972+02:00"
+            },
+            "value": "2\n        "
+          }
+        ]
+      },
+      {
+        "TYPE_NAME": "odf.InfoItemType",
+        "nameAttribute": "realTimeValue",
+        "otherAttributes": {
+          "type": "mv:realTimeValue",
+          "name": "realTimeValue"
+        },
+        "value": [
+          {
+            "TYPE_NAME": "odf.ValueType",
+            "unixTime": 1540722701,
+            "type": "xs:short",
+            "dateTime": {
+              "year": 2018,
+              "month": 10,
+              "day": 28,
+              "hour": 12,
+              "minute": 31,
+              "second": 41,
+              "fractionalSecond": 0.972,
+              "timezone": 120,
+              "date": "2018-10-28T10:31:41.972Z"
+            },
+            "otherAttributes": {
+              "unixTime": "1540722701",
+              "type": "xs:short",
+              "dateTime": "2018-10-28T12:31:41.972+02:00"
+            },
+            "value": "2\n        "
+          }
+        ]
+      },
+      {
+        "TYPE_NAME": "odf.InfoItemType",
+        "nameAttribute": "validForVehicle",
+        "otherAttributes": {
+          "type": "mv:validForVehicle",
+          "name": "validForVehicle"
+        },
+        "value": [
+          {
+            "TYPE_NAME": "odf.ValueType",
+            "unixTime": 1540722701,
+            "type": "mv:Vehicle",
+            "dateTime": {
+              "year": 2018,
+              "month": 10,
+              "day": 28,
+              "hour": 12,
+              "minute": 31,
+              "second": 41,
+              "fractionalSecond": 0.972,
+              "timezone": 120,
+              "date": "2018-10-28T10:31:41.972Z"
+            },
+            "otherAttributes": {
+              "unixTime": "1540722701",
+              "type": "mv:Vehicle",
+              "dateTime": "2018-10-28T12:31:41.972+02:00"
+            },
+            "value": "\n            mv:Car\n        "
+          }
+        ]
+      }
+    ]
+  }
+}

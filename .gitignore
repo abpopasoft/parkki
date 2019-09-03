@@ -3,3 +3,4 @@ dist
 tmp
 node_modules
 *.zip
+/src/settings.js
